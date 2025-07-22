@@ -1,0 +1,85 @@
+Ans 1 ) Conditional statements in JavaScript are used to perform different actions based on different conditions. 
+They allow your code to make decisions and execute different blocks of code depending on whether a condition evaluates to true or false.
+
+type of conditional statement :-
+if Statement
+Basic Form: Executes code block if condition is true.
+Syntax Example: if (condition) { // code block }
+
+if-else Statement
+Description: Executes code block if condition is true, otherwise executes an alternative code block.
+Syntax Example: if (condition) { // code block } else { // alternative code block }
+
+Nested if Statement
+Description: if-else statements within another if-else statement.
+Syntax Example: if (condition1) { if (condition2) { // code block } }
+
+if else if Ladder
+Description: Allows chaining multiple conditions together.
+Syntax Example: if (condition1) { // code block } else if (condition2) { // code block }
+
+switch statement
+Description: Used when you have many exact matches (like menu options, days, etc.).
+syntax Example : switch (Expression){
+    case value1:
+    // block of code 
+    break;
+    case value2 :
+    // block of code
+     break;
+     default:
+     //block of code
+}
+
+Ans 3) Loops are programming constructs that let you repeat a block of code multiple times, either a set number of times or until a condition is no longer true.
+ They help automate repetitive tasks and make your code more efficient.
+
+Why Do We Need Loops?
+-> To avoid writing repetitive code
+
+-> To process lists or arrays
+
+-> To automate tasks like counting, checking, or generating data
+
+-> To iterate over data structures like arrays, objects, or strings
+
+1) for Loop
+Use when you know how many times you want to loop.
+
+Syntax:
+
+for (initialization; condition; increment) {
+  // code to run
+}
+
+2) while Loop
+Use when you want to loop as long as a condition is true, but don’t know how many times in advance.
+
+Syntax:
+while (condition) {
+  // code to run
+}
+
+3)  do...while Loop
+Similar to while, but runs the code at least once, even if the condition is false.
+
+Syntax:
+do {
+  // code to run
+} while (condition);
+
+4) for...of Loop 
+Used to iterate over iterables like arrays or strings.
+
+Syntax:
+for (let value of iterable) {
+  // code to run
+}
+
+5) for...in Loop
+Used to iterate over object properties.
+
+Syntax:
+for (let key in object) {
+  // code to run
+}
